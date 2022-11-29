@@ -1,12 +1,9 @@
-//Posts dos usuários
 const posts = [
   {
-    id_post: 1, //id único de cada post
-    user: 2, //id do usuário que fez o post, você pode acessa-lo no array users
-    //título do post
+    id_post: 1, 
+    user: 2, 
     title:
       "Empresa de Tecnologia da Informação abre vagas para programa de estágio",
-    //texto do post
     text: "A Framework Digital, empresa mineira especializada em Tecnologia da Informação, irá iniciar o seu sexto programa de estágio, com o prazo de inscrições entre os dias 08 e 28 de agosto. O programa é conhecido como Framework Padawans, com inspiração nos filmes Star Wars. Nas histórias, os iniciantes fazem treinamentos para se tornar cavaleiros Jedi, que compõem o lado bom da força.",
   },
   {

@@ -1,0 +1,32 @@
+.navbar{
+    width: 100vw;
+    color: var(--color-white-fixed);
+    background-color: var(--color-grey-1);
+    padding: 1.15rem 0;
+    position: fixed;
+   
+    z-index: 1;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4rem;
+}
+
+.navbar-link{
+    background-color: transparent;
+    color: var(--color-white-fixed);
+    height: 2rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: var(--radius-1);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.navbar-link:hover, .navbar-link.actived{
+    background-color: var(--color-grey-2);
+}

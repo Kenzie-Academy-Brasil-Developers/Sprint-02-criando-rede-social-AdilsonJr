@@ -1,0 +1,88 @@
+.input-all{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-family: var(--font-family-1);
+    padding: 5px;
+    font-size: 20px;
+}
+
+.input-all::placeholder{
+    padding-left: 10px;
+}
+
+.input-post{
+    width: 100%;
+    height: 130px;
+    border-radius: 5px;
+    font-family: var(--font-family-1);
+    font-size: 18px;
+    padding: 5px;
+}
+
+.input-post::placeholder{
+    padding-left: 10px;
+}
+
+
+.btn-postar{
+    width: 69px;
+    height: 38px;
+    background-color: var(--color-blue-1);
+    color: var(--color-white-fixed);
+    border: 1px solid var(--color-white-fixed);
+    border-radius: 5px;
+}
+
+.btn-postar:hover{
+    cursor: pointer;
+}
+
+.btn-seguir{
+    width: 65px;
+    height: 17px;
+    background-color: var(--color-grey-4);
+    color: var(--color-grey-2);
+    border: 1px solid var(--color-grey-4);
+}
+
+.btn-abrir-post{
+    background-color: var(--color-grey-1);
+    color: var(--color-white-fixed);
+    border: 1px solid var(--color-grey-4);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.btn-curtir-post{
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-fechar-post{
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: 10px;
+    top: -10px;
+}
+
+.btnFollow{
+    padding: 4px;
+}
+
+.following{
+    background-color: var(--color-blue-1);
+    color: var(--color-white-fixed);
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px){
+    .btn-fechar-post{
+        left: 155px;
+    }
+}

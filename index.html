@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/globalstyles.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/inputs.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <link rel="stylesheet" href="./src/styles/navbar.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <title>TechPosters - Rede Social</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navbar">
+          <div class="navbar-items">
+            <h3>TechPosters</h3>
+            <div class="navbar-links">
+              <a href="#"><button class="navbar-link">Sair</button></a>
+            </div>
+          </div>
+          
+        </nav>
+      </header>
+      <section class="section-principal-home">
+        <section class="writePost">
+          <div class="header__writePost">
+            <img class="picture" src="./src/assets/img/user1.svg" alt="imagem do usuário">
+            <div class="nameOcupation__writePost">
+              <h2 class="name">Samuel Leão</h2>
+              <p class="ocupation">Front Enginer</p>
+            </div>
+          </div>
+          <form>
+            <input class="input-all" type="text" placeholder="Digitar o titulo do post">
+            <textarea class="input-post" name="" id="" cols="30" rows="10" placeholder="Digitar descrição do post"></textarea>
+            <button class="btn-postar">Postar</button>
+          </form>
+        </section>
+        <aside class="follow-sugestions">
+          <h2>Sugestões para seguir</h2>
+          <ul class="follow-sugestions-list">
+            <!-- <li>
+              <div class="follow-sugestion">
+                <img src="./src/assets/img/user1.svg" alt="imagem do usuário">
+                <div>
+                  <h3>Samuel Leão</h3>
+                  <p>Front Enginer</p>
+                </div>
+              </div>
+              <button class="btn-seguir">Seguir</button>
+            </li> -->
+          </ul>
+        </aside>
+        <section class="posts">
+          <h2>Posts</h2>
+          <ul class="posts-list">
+          </ul>
+        </section>
+      </section>
+    </main>
+    <section class="modal-wrapper" id="modal-post">
+      <!-- <div class="modal">
+        <div class="modal-header">
+          <img src="./src/assets/img/user1.svg" alt="imagem do usuário">
+          <div>
+            <h3>Samuel Leão</h3>
+            <p>Front Enginer</p>
+          </div>
+          <button class="btn-fechar-post">X</button>
+        </div>
+        <h3>Como criar um interface simples e agradável utilizando boas práticas de design</h3>
+        <p>Hoje vamos conversar sobre como criar uma interface agradável mesmo sem ter um design pronto feito por um profissional de UI design.</p>
+      </div> -->
+    </section>
+  </body>
+  <script src="./src/scripts/users.js"></script>
+  <script src="./src/scripts/sugestUsers.js"></script>
+  <script src="./src/scripts/posts.js"></script>
+  <script src="./src/scripts/index.js"></script>
+</html>
+
